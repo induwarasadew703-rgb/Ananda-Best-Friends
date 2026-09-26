@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ananda Best Friends - Art, Tech & Eternal Bond</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Space Grotesk and Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Space Grotesk', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f5f3ff',
+                            100: '#ede9fe',
+                            500: '#8b5cf6',
+                            600: '#7c3aed',
+                            700: '#6d28d9',
+                            900: '#4c1d95',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body
+        <body style="background-image: url('C:/Users/DELL/OneDrive/Pictures/Screenshots/Screenshot 2026-09-19 142546.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+        {
+
+            font-family: 'Inter', sans-serif;
+            background-color: #030712;
+            color: #f3f4f6;
+            overflow-x: hidden;
+        }
+        .font-display {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        .glass-card {
+            background: rgba(17, 24, 39, 0.7);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .glass-nav {
+            background: rgba(3, 7, 18, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .glow-effect {
+            box-shadow: 0 0 50px -10px rgba(139, 92, 246, 0.3);
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #c084fc 0%, #f472b6 50%, #60a5fa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #030712;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #374151;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #4b5563;
+        }
+    </style>
+</head>
+<body class="bg-gray-950 text-gray-100 antialiased selection:bg-purple-500 selection:text-white">
+
+    <header class="fixed top-0 left-0 right-0 z-50 glass-nav border-b border-white/10 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center space-x-3 group">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-purple-600 via-pink-600 to-blue-500 flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
+                    <i class="fa-solid fa-infinity text-white text-lg"></i>
+                </div>
+                <span class="font-display font-bold text-xl text-white tracking-wide">Ananda<span class="text-purple-400">Friends</span></span>
+            </a>
+            
+            <nav class=<!-- Navigation -->
+    <nav class="glass-nav fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            
+            <a href="#home" class="flex items-center space-x-3 group">
+                
+                <C:/Users/DELL/OneDrive/Pictures/Screenshots/Screenshot 2026-09-23 215710.png>
+                <img src="C:/Users/DELL/OneDrive/Pictures/Screenshots/Screenshot 2026-09-23 215710.png" alt="Logo" class="w-10 h-10 rounded-xl object-cover shadow-lg group-hover:scale-105 transition-transform">
+
+                <span class="font-display font-bold text-xl tracking-wide gradient-text">Ananda Best Friends</span>
+            </a>
+            </nav>
+
+            <div class="flex items-center space-x-4">
+                <a href="#games" class="hidden sm:inline-flex items-center justify-center px-4 py-2 rounded-xl text-sm font-medium bg-purple-600 hover:bg-purple-500 text-white shadow-lg shadow-purple-600/30 transition-all transform hover:-translate-y-0.5">
+                    <i class="fa-solid fa-gamepad mr-2"></i> Play Games
+                </a>
+                <button id="mobile-menu-btn" class="md:hidden text-gray-300 hover:text-white focus:outline-none p-2">
+                    <i class="fa-solid fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden glass-card border-t border-white/10 px-4 pt-2 pb-6 space-y-3">
+            <a href="#hero" class="block px-3 py-2 rounded-lg text-base font-medium text-gray-200 hover:bg-white/5">Home</a>
+            <a href="#about" class="block px-3 py-2 rounded-lg text-base font-medium text-gray-200 hover:bg-white/5">The Bond</a>
+            <a href="#gallery" class="block px-3 py-2 rounded-lg text-base font-medium text-gray-200 hover:bg-white/5">Gallery</a>
+            <a href="#hub" class="block px-3 py-2 rounded-lg text-base font-medium text-gray-200 hover:bg-white/5">Creative Hub</a>
+            <a href="#games" class="block px-3 py-2 rounded-lg text-base font-medium text-gray-200 hover:bg-white/5">Arcade</a>
+            <a href="#ai-chat" class="block px-3 py-2 rounded-lg text-base font-medium text-gray-200 hover:bg-white/5">AI Mate</a>
+        </div>
+    </header>
+
+    <section id="hero" class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+        <!-- Background Glow Orbs -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-purple-600/20 rounded-full blur-[120px] pointer-events-none"></div>
+        <div class="absolute bottom-10 right-10 w-[400px] h-[400px] bg-blue-600/15 rounded-full blur-[100px] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center relative z-10">
+            <div class="inline-flex items-center space-x-2 px-4 py-2 rounded-full glass-card border border-purple-500/30 text-purple-300 text-xs sm:text-sm font-medium mb-8 animate-bounce">
+                <i class="fa-solid fa-sparkles"></i>
+                <span>Celebrating True Friendship, Art & Innovation</span>
+            </div>
+            <section id="hero" class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+    <!-- Background Glow Orbs -->
+    <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-purple-600/20 rounded-full blur-[120px] pointer-events-none"></div>
+    <div class="absolute bottom-10 right-10 w-[400px] h-[400px] bg-blue-600/15 rounded-full blur-[100px] pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center relative z-10">
+        
+    
+        <div class="mb-8 flex justify-center">
+            <img src="C:/Users/DELL/OneDrive/Pictures/Screenshots/Screenshot 2026-09-23 215710.png" 
+                 alt="Large Hero Image" 
+                 class="w-full max-w-2xl h-auto rounded-3xl shadow-2xl border border-white/20 object-cover hover:scale-[1.02] transition-transform duration-500">
+        </div>
+        <div class="inline-flex items-center space-x-2 px-4 py-2 rounded-full glass-card border border-purple-500/30 text-purple-300 text-xs sm:text-sm font-medium mb-8 animate-bounce">
+            <i class="fa-solid fa-sparkles"></i>
+            <span>Celebrating True Friendship, Art & Innovation</span>
+        </div>
+        
+        <h1 class="font-display font-extrabold text-4xl sm:text-6xl md:text-7xl tracking-tight text-white mb-6">
+            Brothers in Spirit, <br>
+            <span class="text-gradient">Limitless in Dreams</span>
+        </h1>
+        
+        <p class="max-w-2xl mx-auto text-base sm:text-xl text-gray-400 mb-10 leading-relaxed">
+            Welcome to our digital sanctuary. A shared space built on creativity, technology, art, and unforgettable laughter. Together, we explore the extraordinary.
+        </p>
+
+        <!-- ඉතිරි බොත්තම් සහ අනෙකුත් කොටස් මෙහි පවතී -->
+            <h1 class="font-display font-extrabold text-4xl sm:text-6xl md:text-7xl tracking-tight text-white mb-6">
+                Brothers in Spirit, <br>
+                <span class="text-gradient">Limitless in Dreams</span>
+            </h1>
+            
+            <p class="max-w-2xl mx-auto text-base sm:text-xl text-gray-400 mb-10 leading-relaxed">
+                Welcome to our digital sanctuary. A shared space built on creativity, technology, art, and unforgettable laughter. Together, we explore the extraordinary.
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#gallery" class="w-full sm:w-auto px-8 py-4 rounded-xl font-semibold bg-gradient-to-r from-purple-600 to-pink-600 text-white shadow-xl shadow-purple-600/30 hover:opacity-95 transition-all transform hover:-translate-y-1">
+                    <i class="fa-solid fa-images mr-2"></i> Explore Photo Gallery
+                </a>
+                <a href="#hub" class="w-full sm:w-auto px-8 py-4 rounded-xl font-semibold glass-card text-white hover:bg-white/10 transition-all border border-white/10">
+                    <i class="fa-solid fa-compass mr-2"></i> Creative Hub
+                </a>
+            </div>
+
+            <!-- Stats Bar -->
+            <div class="mt-20 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+                <div class="glass-card p-6 rounded-2xl border border-white/5">
+                    <div class="font-display font-bold text-3xl sm:text-4xl text-purple-400 mb-1">100%</div>
+                    <div class="text-xs sm:text-sm text-gray-400">Pure Brotherhood</div>
+                </div>
+                <div class="glass-card p-6 rounded-2xl border border-white/5">
+                    <div class="font-display font-bold text-3xl sm:text-4xl text-pink-400 mb-1">Infinite</div>
+                    <div class="text-xs sm:text-sm text-gray-400">Shared Memories</div>
+                </div>
+                <div class="glass-card p-6 rounded-2xl border border-white/5">
+                    <div class="font-display font-bold text-3xl sm:text-4xl text-blue-400 mb-1">Tech & Art</div>
+                    <div class="text-xs sm:text-sm text-gray-400">Our Shared Passion</div>
+                </div>
+                <div class="glass-card p-6 rounded-2xl border border-white/5">
+                    <div class="font-display font-bold text-3xl sm:text-4xl text-emerald-400 mb-1">24/7</div>
+                    <div class="text-xs sm:text-sm text-gray-400">Good Vibes</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="font-display font-bold text-3xl sm:text-4xl text-white mb-4">The Pillars of Our Connection</h2>
+                <p class="text-gray-400 text-base sm:text-lg">What brings us together and keeps us moving forward every single day.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Pillar 1 -->
+                <div class="glass-card p-8 rounded-3xl border border-white/10 hover:border-purple-500/50 transition-all group">
+                    <div class="w-14 h-14 rounded-2xl bg-purple-600/20 text-purple-400 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-palette"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-xl text-white mb-3">Art & Design</h3>
+                    <p class="text-gray-400 leading-relaxed text-sm">Expressing our imagination through striking visuals, digital sketches, creative design, and unique aesthetics.</p>
+                </div>
+
+                <!-- Pillar 2 -->
+                <div class="glass-card p-8 rounded-3xl border border-white/10 hover:border-pink-500/50 transition-all group">
+                    <div class="w-14 h-14 rounded-2xl bg-pink-600/20 text-pink-400 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-xl text-white mb-3">Technology & Coding</h3>
+                    <p class="text-gray-400 leading-relaxed text-sm">Building web apps, experimenting with JavaScript algorithms, solving logic puzzles, and exploring futuristic tech.</p>
+                </div>
+
+                <!-- Pillar 3 -->
+                <div class="glass-card p-8 rounded-3xl border border-white/10 hover:border-blue-500/50 transition-all group">
+                    <div class="w-14 h-14 rounded-2xl bg-blue-600/20 text-blue-400 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-shield-heart"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-xl text-white mb-3">Unbreakable Trust</h3>
+                    <p class="text-gray-400 leading-relaxed text-sm">Standing by each other through thick and thin, sharing life's greatest moments, and supporting one another's ambitions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="py-24 bg-gray-900/40 relative border-t border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                <div>
+                    <span class="text-purple-400 font-semibold text-sm tracking-wider uppercase mb-2 block">Visual Memories</span>
+                    <h2 class="font-display font-bold text-3xl sm:text-4xl text-white">Our Photo Gallery</h2>
+                </div>
+                <p class="text-gray-400 text-sm mt-4 md:mt-0 max-w-md">Moments captured in time, showcasing our friendship, adventures, and everyday fun.</p>
+            </div>
+
+            <!-- Gallery Grid containing uploaded images -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Gallery Item 1: WhatsApp Image 1 -->
+                <div class="glass-card rounded-3xl overflow-hidden border border-white/10 hover:border-purple-500/50 transition-all duration-300 group shadow-2xl">
+                    <div class="h-80 sm:h-96 relative overflow-hidden bg-gray-950 flex items-center justify-center">
+                        <img src="/C:/Users/DELL/OneDrive/Pictures/WhatsApp Image 2026-09-21 at 9.40.20 PM.jpeg" alt="Ananda Best Friends Moment 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        <img src="/C:/Users/DELL/OneDrive/Pictures/WhatsApp Image 2026-09-21 at 9.40.20 PM.jpeg" alt="Ananda Best Friends Moment 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-gray-950 via-transparent opacity-60"></div>
+                        <span class="absolute top-4 left-4 px-3 py-1 rounded-full text-xs font-semibold bg-purple-600/80 text-white backdrop-blur-md">
+                            <i class="fa-solid fa-camera mr-1"></i> Special Memory
+                        </span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-display font-bold text-white text-xl mb-2 group-hover:text-purple-400 transition-colors">Best Moments Together</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">Captured moments filled with laughter, great conversations, and true friendship.</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 2: WhatsApp Image 2 -->
+                <div class="glass-card rounded-3xl overflow-hidden border border-white/10 hover:border-pink-500/50 transition-all duration-300 group shadow-2xl">
+                    <div class="h-80 sm:h-96 relative overflow-hidden bg-gray-950 flex items-center justify-center">
+                        <img src="C:/Users/DELL/Downloads/WhatsApp Image 2026-09-24 at 8.18.53 PM.jpeg"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-gray-950 via-transparent opacity-60"></div>
+                        <span class="absolute top-4 left-4 px-3 py-1 rounded-full text-xs font-semibold bg-pink-600/80 text-white backdrop-blur-md">
+                            <i class="fa-solid fa-heart mr-1"></i> Brotherhood
+                        </span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-display font-bold text-white text-xl mb-2 group-hover:text-pink-400 transition-colors">Unbreakable Bond</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">Standing side by side through every adventure and creating memories that last a lifetime.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hub" class="py-24 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-purple-400 font-semibold text-sm tracking-wider uppercase mb-2 block">Interactive Sandbox</span>
+                <h2 class="font-display font-bold text-3xl sm:text-4xl text-white mb-4">Creative Hub & Tools</h2>
+                <p class="text-gray-400 text-base">Interact with our live modules built right into our friendship portal.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- Module 1: Compliment Generator -->
+                <div class="glass-card p-8 rounded-3xl border border-white/10 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-3 mb-6">
+                            <div class="w-12 h-12 rounded-2xl bg-purple-600/20 text-purple-400 flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-display font-bold text-xl text-white">Bro Code Generator</h3>
+                                <p class="text-gray-400 text-xs">Generate instant friendship wisdom and custom hype!</p>
+                            </div>
+                        </div>
+                        <div id="hype-box" class="p-6 rounded-2xl bg-gray-900/80 border border-white/5 text-gray-300 italic text-center text-lg min-h-[100px] flex items-center justify-center mb-6">
+                            "True friends don't let each other do stupid things... alone."
+                        </div>
+                    </div>
+                    <button onclick="generateHype()" class="w-full py-4 rounded-xl font-semibold bg-purple-600 hover:bg-purple-500 text-white shadow-lg shadow-purple-600/30 transition-all flex items-center justify-center space-x-2">
+                        <i class="fa-solid fa-shuffle"></i>
+                        <span>Generate New Hype</span>
+                    </button>
+                </div>
+
+                <!-- Module 2: Interactive Mood Board / Color Theme Switcher -->
+                <div class="glass-card p-8 rounded-3xl border border-white/10 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-3 mb-6">
+                            <div class="w-12 h-12 rounded-2xl bg-pink-600/20 text-pink-400 flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-palette"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-display font-bold text-xl text-white">Vibe Theme Changer</h3>
+                                <p class="text-gray-400 text-xs">Switch the accent theme of our portal instantly!</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-400 text-sm mb-6">Choose your favorite vibe for our digital portal:</p>
+                        <div class="grid grid-cols-3 gap-4 mb-6">
+                            <button onclick="setTheme('purple')" class="p-4 rounded-xl bg-purple-900/40 border border-purple-500/50 text-purple-300 font-medium hover:bg-purple-800/40 transition-all flex flex-col items-center space-y-2">
+                                <span class="w-6 h-6 rounded-full bg-purple-500 block"></span>
+                                <span class="text-xs">Electric Purple</span>
+                            </button>
+                            <button onclick="setTheme('emerald')" class="p-4 rounded-xl bg-emerald-900/40 border border-emerald-500/50 text-emerald-300 font-medium hover:bg-emerald-800/40 transition-all flex flex-col items-center space-y-2">
+                                <span class="w-6 h-6 rounded-full bg-emerald-500 block"></span>
+                                <span class="text-xs">Matrix Emerald</span>
+                            </button>
+                            <button onclick="setTheme('rose')" class="p-4 rounded-xl bg-rose-900/40 border border-rose-500/50 text-rose-300 font-medium hover:bg-rose-800/40 transition-all flex flex-col items-center space-y-2">
+                                <span class="w-6 h-6 rounded-full bg-rose-500 block"></span>
+                                <span class="text-xs">Neon Rose</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="theme-status" class="text-xs text-gray-400 text-center">Current Vibe: Electric Purple Active</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="games" class="py-24 bg-gray-900/40 border-t border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-purple-400 font-semibold text-sm tracking-wider uppercase mb-2 block">Fun Zone</span>
+                <h2 class="font-display font-bold text-3xl sm:text-4xl text-white mb-4">Bro Arcade</h2>
+                <p class="text-gray-400 text-base">Challenge yourself with our built-in mini-games!</p>
+            </div>
+
+            <!-- Mini Game Container -->
+            <div class="max-w-3xl mx-auto glass-card p-8 rounded-3xl border border-white/10">
+                <div class="flex items-center justify-between mb-8 pb-4 border-b border-white/10">
+                    <h3 id="game-title" class="font-display font-bold text-2xl text-white">Reaction Speed Test</h3>
+                    <div class="flex space-x-2">
+                        <button onclick="switchGame('reaction')" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-purple-600 text-white game-tab" id="tab-reaction">Reaction</button>
+                        <button onclick="switchGame('clicker')" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-gray-800 text-gray-300 game-tab" id="tab-clicker">Clicker</button>
+                    </div>
+                </div>
+
+                <!-- Game 1: Reaction Test -->
+                <div id="game-reaction" class="game-view text-center py-12">
+                    <div id="reaction-box" onclick="handleReactionClick()" class="w-full h-64 rounded-2xl bg-gray-800 border border-white/10 flex flex-col items-center justify-center cursor-pointer transition-all select-none">
+                        <i class="fa-solid fa-bolt text-4xl text-purple-400 mb-3"></i>
+                        <h4 id="reaction-text" class="font-display font-bold text-xl text-white mb-1">Click here to start!</h4>
+                        <p id="reaction-subtext" class="text-gray-400 text-sm">Wait for green, then click as fast as you can.</p>
+                    </div>
+                    <div class="mt-6 flex justify-between items-center text-sm text-gray-400 px-2">
+                        <span>Best Time: <strong id="best-reaction" class="text-white">--</strong> ms</span>
+                        <button onclick="resetReactionGame()" class="text-purple-400 hover:underline">Reset</button>
+                    </div>
+                </div>
+
+                <!-- Game 2: Clicker Challenge -->
+                <div id="game-clicker" class="game-view text-center py-12 hidden">
+                    <div class="mb-6">
+                        <div class="font-display font-extrabold text-5xl text-purple-400 mb-2" id="click-count">0</div>
+                        <p class="text-gray-400 text-sm">Clicks in <span id="click-timer">10</span> seconds</p>
+                    </div>
+                    <div class="flex justify-center gap-4">
+                        <button onclick="handleBroClick()" id="click-btn" class="px-8 py-4 rounded-2xl bg-gradient-to-r from-purple-600 to-pink-600 text-white font-bold text-lg shadow-xl shadow-purple-600/30 hover:scale-105 active:scale-95 transition-all">
+                            CLICK FAST!
+                        </button>
+                        <button onclick="startClickerGame()" class="px-6 py-4 rounded-2xl glass-card text-white font-medium hover:bg-white/10 transition-all border border-white/10">
+                            Start / Restart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ai-chat" class="py-24 relative">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-purple-400 font-semibold text-sm tracking-wider uppercase mb-2 block">AI Companion</span>
+                <h2 class="font-display font-bold text-3xl sm:text-4xl text-white mb-4">Chat with Ananda AI Mate</h2>
+                <p class="text-gray-400 text-sm">Ask questions, request advice, or chat about art and technology!</p>
+            </div>
+
+            <div class="glass-card rounded-3xl border border-white/10 overflow-hidden shadow-2xl flex flex-col h-[500px]">
+                <!-- Chat Header -->
+                <div class="px-6 py-4 bg-gray-900/80 border-b border-white/10 flex items-center justify-between">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-3 h-3 rounded-full bg-emerald-500 animate-pulse"></div>
+                        <span class="font-display font-bold text-white text-sm">AI Companion Online</span>
+                    </div>
+                    <span class="text-xs text-gray-400">Powered by Gemini 3 Flash</span>
+                </div>
+
+                <!-- Chat Messages Area -->
+                <div id="chat-messages" class="flex-1 p-6 overflow-y-auto space-y-4">
+                    <div class="flex items-start space-x-3">
+                        <div class="w-8 h-8 rounded-full bg-purple-600/30 text-purple-400 flex items-center justify-center text-xs font-bold">AI</div>
+                        <div class="glass-card p-4 rounded-2xl rounded-tl-none text-sm text-gray-200 max-w-[80%] border border-white/5">
+                            Hello! I am your AI companion. How can I help you and your best friends today? Ask me anything about coding, art, or life!
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chat Input Area -->
+                <div class="p-4 bg-gray-900/80 border-t border-white/10 flex items-center space-x-3">
+                    <input type="text" id="chat-input" placeholder="Type a message..." class="flex-1 bg-gray-950 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-purple-500 transition-colors" onkeydown="if(event.key==='Enter') sendChatMessage()">
+                    <button onclick="sendChatMessage()" class="px-6 py-3 bg-purple-600 hover:bg-purple-500 text-white rounded-xl font-medium text-sm shadow-lg shadow-purple-600/30 transition-all flex items-center space-x-2">
+                        <span>Send</span>
+                        <i class="fa-solid fa-paper-plane text-xs"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 bg-gray-950 border-t border-white/10 text-center text-sm text-gray-500">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-center space-x-3 mb-4">
+                <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-purple-600 to-pink-600 flex items-center justify-center text-white">
+                    <i class="fa-solid fa-infinity text-xs"></i>
+                </div>
+                <span class="font-display font-bold text-white text-lg">Ananda Best Friends</span>
+            </div>
+            <p class="mb-4">Celebrating true friendship, shared creativity, art, technology, and endless fun.</p>
+            <p>&copy; 2026 Ananda Best Friends. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (mobileMenuBtn && mobileMenu) {
+            mobileMenuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+
+        // Bro Code Generator Hype Box
+        const hypeQuotes = [
+            "True friends don't let each other do stupid things... alone.",
+            "Technology is fun, but friendship is infinite.",
+            "Art is how we decorate space; friendship is how we decorate time.",
+            "Side by side or miles apart, best friends are always close to the heart.",
+            "Code, create, innovate, and celebrate every single win together!",
+            "A good friend knows all your best stories; a best friend has lived them with you."
+        ];
+        function generateHype() {
+            const randomIndex = Math.floor(Math.random() * hypeQuotes.length);
+            document.getElementById('hype-box').innerText = '"' + hypeQuotes[randomIndex] + '"';
+        }
+
+        // Vibe Theme Switcher
+        function setTheme(theme) {
+            const status = document.getElementById('theme-status');
+            if (theme === 'purple') {
+                status.innerText = "Current Vibe: Electric Purple Active";
+            } else if (theme === 'emerald') {
+                status.innerText = "Current Vibe: Matrix Emerald Active";
+            } else if (theme === 'rose') {
+                status.innerText = "Current Vibe: Neon Rose Active";
+            }
+        }
+
+        // Mini Game Switcher
+        function switchGame(gameType) {
+            const reactionView = document.getElementById('game-reaction');
+            const clickerView = document.getElementById('game-clicker');
+            const tabReaction = document.getElementById('tab-reaction');
+            const tabClicker = document.getElementById('tab-clicker');
+            const title = document.getElementById('game-title');
+
+            if (gameType === 'reaction') {
+                reactionView.classList.remove('hidden');
+                clickerView.classList.add('hidden');
+                tabReaction.className = "px-3 py-1.5 rounded-lg text-xs font-semibold bg-purple-600 text-white game-tab";
+                tabClicker.className = "px-3 py-1.5 rounded-lg text-xs font-semibold bg-gray-800 text-gray-300 game-tab";
+                title.innerText = "Reaction Speed Test";
+            } else {
+                reactionView.classList.add('hidden');
+                clickerView.classList.remove('hidden');
+                tabClicker.className = "px-3 py-1.5 rounded-lg text-xs font-semibold bg-purple-600 text-white game-tab";
+                tabReaction.className = "px-3 py-1.5 rounded-lg text-xs font-semibold bg-gray-800 text-gray-300 game-tab";
+                title.innerText = "Bro Clicker Challenge";
+            }
+        }
+
+        // Reaction Game Logic
+        let reactionState = 'idle'; // idle, waiting, ready, finished
+        let startTime = 0;
+        let timeoutId = null;
+        let bestReaction = 9999;
+
+        function handleReactionClick() {
+            const box = document.getElementById('reaction-box');
+            const text = document.getElementById('reaction-text');
+            const subtext = document.getElementById('reaction-subtext');
+
+            if (reactionState === 'idle') {
+                reactionState = 'waiting';
+                box.className = "w-full h-64 rounded-2xl bg-amber-600/30 border border-amber-500/50 flex flex-col items-center justify-center cursor-pointer transition-all select-none";
+                text.innerText = "Wait for GREEN...";
+                subtext.innerText = "Get ready!";
+                
+                const randomTime = Math.random() * 2000 + 1500;
+                timeoutId = setTimeout(() => {
+                    reactionState = 'ready';
+                    startTime = performance.now();
+                    box.className = "w-full h-64 rounded-2xl bg-emerald-600/40 border border-emerald-500/80 flex flex-col items-center justify-center cursor-pointer transition-all select-none shadow-lg shadow-emerald-500/20";
+                    text.innerText = "CLICK NOW!";
+                    subtext.innerText = "Quick!";
+                }, randomTime);
+            } else if (reactionState === 'waiting') {
+                clearTimeout(timeoutId);
+                reactionState = 'idle';
+                box.className = "w-full h-64 rounded-2xl bg-red-600/30 border border-red-500/50 flex flex-col items-center justify-center cursor-pointer transition-all select-none";
+                text.innerText = "Too soon! Click to try again.";
+                subtext.innerText = "You clicked too early.";
+            } else if (reactionState === 'ready') {
+                const endTime = performance.now();
+                const score = Math.round(endTime - startTime);
+                reactionState = 'idle';
+                box.className = "w-full h-64 rounded-2xl bg-gray-800 border border-white/10 flex flex-col items-center justify-center cursor-pointer transition-all select-none";
+                text.innerText = score + " ms!";
+                subtext.innerText = "Click to try again.";
+                if (score < bestReaction) {
+                    bestReaction = score;
+                    document.getElementById('best-reaction').innerText = bestReaction;
+                }
+            }
+        }
+
+        function resetReactionGame() {
+            clearTimeout(timeoutId);
+            reactionState = 'idle';
+            const box = document.getElementById('reaction-box');
+            box.className = "w-full h-64 rounded-2xl bg-gray-800 border border-white/10 flex flex-col items-center justify-center cursor-pointer transition-all select-none";
+            document.getElementById('reaction-text').innerText = "Click here to start!";
+            document.getElementById('reaction-subtext').innerText = "Wait for green, then click as fast as you can.";
+        }
+
+        // Clicker Game Logic
+        let clickCount = 0;
+        let clickerActive = false;
+        let clickerTimer = 10;
+        let clickerInterval = null;
+
+        function startClickerGame() {
+            if (clickerActive) return;
+            clickCount = 0;
+            clickerTimer = 10;
+            clickerActive = true;
+            document.getElementById('click-count').innerText = clickCount;
+            document.getElementById('click-timer').innerText = clickerTimer;
+
+            clearInterval(clickerInterval);
+            clickerInterval = setInterval(() => {
+                clickerTimer--;
+                document.getElementById('click-timer').innerText = clickerTimer;
+                if (clickerTimer <= 0) {
+                    clearInterval(clickerInterval);
+                    clickerActive = false;
+                    alert("Time's up! You got " + clickCount + " clicks!");
+                }
+            }, 1000);
+        }
+
+        function handleBroClick() {
+            if (!clickerActive) return;
+            clickCount++;
+            document.getElementById('click-count').innerText = clickCount;
+        }
+
+        // AI Chatbot Logic using Gemini API
+        async function sendChatMessage() {
+            const inputField = document.getElementById('chat-input');
+            const messagesArea = document.getElementById('chat-messages');
+            const userText = inputField.value.trim();
+            if (!userText) return;
+
+            // Append User Message
+            messagesArea.innerHTML += `
+                <div class="flex items-start justify-end space-x-3">
+                    <div class="glass-card p-4 rounded-2xl rounded-tr-none text-sm text-white max-w-[80%] border border-purple-500/30 bg-purple-600/20">
+                        ${escapeHtml(userText)}
+                    </div>
+                    <div class="w-8 h-8 rounded-full bg-purple-600 text-white flex items-center justify-center text-xs font-bold">You</div>
+                </div>
+            `;
+            inputField.value = '';
+            messagesArea.scrollTop = messagesArea.scrollHeight;
+
+            // Append Typing Indicator
+            const loadingId = 'loading-' + Date.now();
+            messagesArea.innerHTML += `
+                <div id="${loadingId}" class="flex items-start space-x-3">
+                    <div class="w-8 h-8 rounded-full bg-purple-600/30 text-purple-400 flex items-center justify-center text-xs font-bold">AI</div>
+                    <div class="glass-card p-4 rounded-2xl rounded-tl-none text-sm text-gray-400 max-w-[80%] border border-white/5 animate-pulse">
+                        Thinking...
+                    </div>
+                </div>
+            `;
+            messagesArea.scrollTop = messagesArea.scrollHeight;
+
+            try {
+                const systemPrompt = "You are an encouraging, friendly AI assistant for 'Ananda Best Friends', a digital portal celebrating true friendship, art, technology, and fun. Keep your answers warm, concise, and inspiring.";
+                const apiKey = "";
+                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${apiKey}`;
+                
+                const payload = {
+                    contents: [{ parts: [{ text: userText }] }],
+                    systemInstruction: { parts: [{ text: systemPrompt }] }
+                };
+
+                const response = await fetch(apiUrl, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+
+                const result = await response.json();
+                const candidate = result.candidates?.[0];
+                let reply = "That's awesome! Friendship and technology make a great combination.";
+                if (candidate && candidate.content?.parts?.[0]?.text) {
+                    reply = candidate.content.parts[0].text;
+                }
+
+                // Remove loading indicator
+                document.getElementById(loadingId).remove();
+
+                // Append AI Response
+                messagesArea.innerHTML += `
+                    <div class="flex items-start space-x-3">
+                        <div class="w-8 h-8 rounded-full bg-purple-600/30 text-purple-400 flex items-center justify-center text-xs font-bold">AI</div>
+                        <div class="glass-card p-4 rounded-2xl rounded-tl-none text-sm text-gray-200 max-w-[80%] border border-white/5">
+                            ${escapeHtml(reply)}
+                        </div>
+                    </div>
+                `;
+                messagesArea.scrollTop = messagesArea.scrollHeight;
+
+            } catch (error) {
+                document.getElementById(loadingId).remove();
+                messagesArea.innerHTML += `
+                    <div class="flex items-start space-x-3">
+                        <div class="w-8 h-8 rounded-full bg-purple-600/30 text-purple-400 flex items-center justify-center text-xs font-bold">AI</div>
+                        <div class="glass-card p-4 rounded-2xl rounded-tl-none text-sm text-gray-200 max-w-[80%] border border-white/5">
+                            Great thoughts! Let's keep exploring art and coding together.
+                        </div>
+                    </div>
+                `;
+                messagesArea.scrollTop = messagesArea.scrollHeight;
+            }
+        }
+
+        function escapeHtml(text) {
+            const map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' };
+            return text.replace(/[&<>"']/g, function(m) { return map[m]; });
+        }
+    </script>
+</body>
+</html>
